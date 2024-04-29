@@ -8,12 +8,12 @@ load_dotenv()
 genai.configure(api_key = os.getenv("api_token"))
 
 try:
-    img = PIL.Image.open(os.path.join(os.getcwd(), r"factures_images\Facture Janv 2024(3)_page-0011.jpg"))
+    img = PIL.Image.open(os.path.join(os.getcwd(), r"factures_images", r"Facture Janv 2024 (1)_page-0002.jpg")) 
     # img = img.resize((700, int(img.height * 700 / img.width))) it's a bad idea to resize the image as it may affect the model's performance to identify the content of the image
     if img.mode != 'RGB':
         img = img.convert('RGB')
-except FileNotFoundError:
-    print(json.dumps({"status": False, "message": "Failed to open image"}, indent=4))
+except FileNotFoundError as e:
+    print(json.dumps({"status": False, "message": "Failed to open image " + str(e)}, indent=4))
     exit()
 
 try:
