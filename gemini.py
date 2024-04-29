@@ -1,9 +1,11 @@
 import google.generativeai as genai
 import PIL.Image
+from dotenv import load_dotenv
 import json
 import os
 
-genai.configure(api_key="AIzaSyC2kp2iCcA1JfLQJZRwpNQjTDCx0MEP-1w")
+load_dotenv()
+genai.configure(api_key = os.getenv("api_token"))
 
 try:
     img = PIL.Image.open(os.path.join(os.getcwd(), r"factures_images\Facture Janv 2024(3)_page-0011.jpg"))
