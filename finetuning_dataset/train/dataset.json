@@ -1,0 +1,828 @@
+[
+    {
+        "id": "dfd5ca43-db15-4a88-bfb4-4f34e9869a08",
+        "image": "finetuning_dataset/images/dfd5ca43-db15-4a88-bfb4-4f34e9869a08.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "724f2855-7efd-4219-9d1b-a31ae2677f09",
+        "image": "finetuning_dataset/images/724f2855-7efd-4219-9d1b-a31ae2677f09.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-11\",\n    \"invoiceDueAt\": null,\n    \"amount\": 260.13,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 216.77,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 180.64,\n            \"discount\": 0,\n            \"amount\": 216.77,\n            \"name\": \"Forfait pro 50H\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "5a6dd885-d48a-4741-8fba-e2f9df21d35f",
+        "image": "finetuning_dataset/images/5a6dd885-d48a-4741-8fba-e2f9df21d35f.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"SARL AU\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-02-06\",\n    \"invoiceDueAt\": null,\n    \"amount\": 144000,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 120000,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 120000,\n            \"discount\": 0,\n            \"amount\": 120000,\n            \"name\": \"LOCATION BUREAUX-\\nMOIS FEVRIER 2024\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "6692148c-0642-4af8-8088-371fc05754c2",
+        "image": "finetuning_dataset/images/6692148c-0642-4af8-8088-371fc05754c2.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "2d5820fa-27a0-4999-91b5-89ea70251df7",
+        "image": "finetuning_dataset/images/2d5820fa-27a0-4999-91b5-89ea70251df7.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"CBI.COM\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"Angle Bd Brahim Rouani\\net rue Abou Sall Andaloussi\\nCasablanca\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-31\",\n    \"invoiceDueAt\": null,\n    \"amount\": 9255.42,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 4176.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 4176.0,\n            \"discount\": 0,\n            \"amount\": 4176.0,\n            \"name\": \"Mood Service\"\n        },\n        {\n            \"unitPrice\": 1200.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 1200.0,\n            \"discount\": 0,\n            \"amount\": 1200.0,\n            \"name\": \"HLALI BAT\"\n        },\n        {\n            \"unitPrice\": 2396.4,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 2396.4,\n            \"discount\": 0,\n            \"amount\": 2396.4,\n            \"name\": \"Ink Services\"\n        },\n        {\n            \"unitPrice\": 1620.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 1620.0,\n            \"discount\": 0,\n            \"amount\": 1620.0,\n            \"name\": \"SMART BUSINESS TECHNOLOGY\"\n        },\n        {\n            \"unitPrice\": 2200.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 2200.0,\n            \"discount\": 0,\n            \"amount\": 2200.0,\n            \"name\": \"EMOTIONBOX\"\n        },\n        {\n            \"unitPrice\": 894.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 894.0,\n            \"discount\": 0,\n            \"amount\": 894.0,\n            \"name\": \"UNIVERSITE\"\n        },\n        {\n            \"unitPrice\": 3150.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 3150.0,\n            \"discount\": 0,\n            \"amount\": 3150.0,\n            \"name\": \"DIVINSHE\"\n        },\n        {\n            \"unitPrice\": 700.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 700.0,\n            \"discount\": 0,\n            \"amount\": 700.0,\n            \"name\": \"ATLASGLOBE\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "8e363370-1fed-4331-abd8-ffce5d99069f",
+        "image": "finetuning_dataset/images/8e363370-1fed-4331-abd8-ffce5d99069f.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Up Filiale Maroc\",\n        \"ICE\": null,\n        \"email\": \"commandesup-maroc.ma\",\n        \"invoiceAddress\": \"Immeuble Tayma N\\u00b023 Lot les Ar\\u00e8nes Rue\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-02-14\",\n    \"invoiceDueAt\": null,\n    \"amount\": 8324.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 50.0,\n            \"quantity\": 160,\n            \"tva\": 20.0,\n            \"netAmount\": 8000.0,\n            \"discount\": null,\n            \"amount\": 8000.0,\n            \"name\": \"Facture\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "3ecfabd1-5556-4d2a-998b-d0d3d13a9656",
+        "image": "finetuning_dataset/images/3ecfabd1-5556-4d2a-998b-d0d3d13a9656.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"CABINET DENTAIRE DU DOCTEUR SALMI\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-24\",\n    \"invoiceDueAt\": null,\n    \"amount\": 14885.9,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 8367.6,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 8367.6,\n            \"discount\": 0,\n            \"amount\": 8367.6,\n            \"name\": \"AMEL FACILITIES\"\n        },\n        {\n            \"unitPrice\": 5946.6,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 5946.6,\n            \"discount\": 0,\n            \"amount\": 5946.6,\n            \"name\": \"INK SERVICES\"\n        },\n        {\n            \"unitPrice\": 1800,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 1800,\n            \"discount\": 0,\n            \"amount\": 1800,\n            \"name\": \"HABCHI MOHAMED\"\n        },\n        {\n            \"unitPrice\": 5249.6,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 5249.6,\n            \"discount\": 0,\n            \"amount\": 5249.6,\n            \"name\": \"HUISSIER DE JUSTICE\"\n        },\n        {\n            \"unitPrice\": 1560,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 1560,\n            \"discount\": 0,\n            \"amount\": 1560,\n            \"name\": \"STE HOLY\"\n        },\n        {\n            \"unitPrice\": 3249.6,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 3249.6,\n            \"discount\": 0,\n            \"amount\": 3249.6,\n            \"name\": \"MENA CORPORATE\"\n        },\n        {\n            \"unitPrice\": 4974.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 4974.0,\n            \"discount\": 0,\n            \"amount\": 4974.0,\n            \"name\": \"Dr Salmi\"\n        },\n        {\n            \"unitPrice\": 8000,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 8000,\n            \"discount\": 0,\n            \"amount\": 8000,\n            \"name\": \"Menuiserie Ebisterie (Up Filiale Cadhoc (Up Filiale Universelle Maroc))\"\n        },\n        {\n            \"unitPrice\": 28.8,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 28.8,\n            \"discount\": 0,\n            \"amount\": 28.8,\n            \"name\": \"AUTO ENTREPRENEUR (Foud aaras)\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "e5bebd85-b159-42fd-b2fe-df4729c5940e",
+        "image": "finetuning_dataset/images/e5bebd85-b159-42fd-b2fe-df4729c5940e.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 132.5,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 24,\n            \"quantity\": 2,\n            \"tva\": 20,\n            \"netAmount\": 48,\n            \"discount\": 0,\n            \"amount\": 48,\n            \"name\": \"Couvert\"\n        },\n        {\n            \"unitPrice\": 3,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 3,\n            \"discount\": 0,\n            \"amount\": 3,\n            \"name\": \"Chateaugay Rouge\"\n        },\n        {\n            \"unitPrice\": 1.5,\n            \"quantity\": 1,\n            \"tva\": 10,\n            \"netAmount\": 1.5,\n            \"discount\": 0,\n            \"amount\": 1.5,\n            \"name\": \"Expresso\"\n        },\n        {\n            \"unitPrice\": 3,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 3,\n            \"discount\": 0,\n            \"amount\": 3,\n            \"name\": \"Heineken 25cl\"\n        },\n        {\n            \"unitPrice\": 104,\n            \"quantity\": 1,\n            \"tva\": 10,\n            \"netAmount\": 104,\n            \"discount\": 0,\n            \"amount\": 104,\n            \"name\": \"Cote de boeuf\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "bffc2fc2-9f2b-4b9e-b1bf-08a0cc9fabd0",
+        "image": "finetuning_dataset/images/bffc2fc2-9f2b-4b9e-b1bf-08a0cc9fabd0.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Lydec\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 7257.07,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 5.84134,\n            \"quantity\": 3533,\n            \"tva\": 20,\n            \"netAmount\": 17037.55,\n            \"discount\": null,\n            \"amount\": 19455.83,\n            \"name\": \"Consommation Electricite\"\n        },\n        {\n            \"unitPrice\": 21.82,\n            \"quantity\": 296.48,\n            \"tva\": 20,\n            \"netAmount\": 5545.92,\n            \"discount\": null,\n            \"amount\": 6335.85,\n            \"name\": \"Consommation Eau\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "46d95786-4fc3-4292-935e-ccf1c1def101",
+        "image": "finetuning_dataset/images/46d95786-4fc3-4292-935e-ccf1c1def101.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 94.36,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 112.34,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 78.64,\n            \"discount\": 0,\n            \"amount\": 94.36,\n            \"name\": \"Forfaits/abonnements et options\"\n        },\n        {\n            \"unitPrice\": -33.7,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": -28.09,\n            \"discount\": 0,\n            \"amount\": -33.7,\n            \"name\": \"Remise sur Forfait ILLIMITE PRO NATIONAL APP\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "a4b93e27-c502-4253-b74a-764e8ebe5c84",
+        "image": "finetuning_dataset/images/a4b93e27-c502-4253-b74a-764e8ebe5c84.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "97b21825-f30b-4a93-a3ba-bb27f28b9f04",
+        "image": "finetuning_dataset/images/97b21825-f30b-4a93-a3ba-bb27f28b9f04.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "ebfba6b3-f9fe-411b-9cf2-5811bf85acb3",
+        "image": "finetuning_dataset/images/ebfba6b3-f9fe-411b-9cf2-5811bf85acb3.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Up Filiale Maroc\",\n        \"ICE\": null,\n        \"email\": \"contact@up-maroc.ma\",\n        \"invoiceAddress\": \"Imm Taya N\\u00b023 Lot les Ar\\u00e8nes Rue 1\\u00e8re \\u00e9tage Bureau 2 Maarif Casablanca\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 6666.4,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 20.0,\n            \"quantity\": 12,\n            \"tva\": 20.0,\n            \"netAmount\": 240.0,\n            \"discount\": null,\n            \"amount\": 240.0,\n            \"name\": \"Detail des cheques\"\n        },\n        {\n            \"unitPrice\": 10.0,\n            \"quantity\": 11,\n            \"tva\": 20.0,\n            \"netAmount\": 110.0,\n            \"discount\": null,\n            \"amount\": 110.0,\n            \"name\": \"Cheque\"\n        },\n        {\n            \"unitPrice\": 50.0,\n            \"quantity\": 1,\n            \"tva\": 20.0,\n            \"netAmount\": 50.0,\n            \"discount\": null,\n            \"amount\": 60.0,\n            \"name\": \"Facture\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "40c8e243-bf4c-4458-842e-295efc4121c7",
+        "image": "finetuning_dataset/images/40c8e243-bf4c-4458-842e-295efc4121c7.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Minist\\u00e8re de l'Equipement et de l'Eau\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-12\",\n    \"invoiceDueAt\": null,\n    \"amount\": 1073.85,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 12.2,\n            \"quantity\": 1,\n            \"tva\": null,\n            \"netAmount\": null,\n            \"discount\": null,\n            \"amount\": 12.2,\n            \"name\": \"Redevance fixes (01 Mois)\"\n        },\n        {\n            \"unitPrice\": 1.4931,\n            \"quantity\": 197,\n            \"tva\": null,\n            \"netAmount\": null,\n            \"discount\": null,\n            \"amount\": 294.14,\n            \"name\": \"Tranche 5 (311 \\u00e0 510 kWh / 30 jours)\"\n        },\n        {\n            \"unitPrice\": 2.68,\n            \"quantity\": 358,\n            \"tva\": null,\n            \"netAmount\": null,\n            \"discount\": null,\n            \"amount\": 954.91,\n            \"name\": \"Tranche 6 (> 510 kWh / 30 jours)\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "5afe96fa-a072-4618-ad39-4cb7e11c4005",
+        "image": "finetuning_dataset/images/5afe96fa-a072-4618-ad39-4cb7e11c4005.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "d7a9f0ca-d991-4b88-81ba-e1527e10ca09",
+        "image": "finetuning_dataset/images/d7a9f0ca-d991-4b88-81ba-e1527e10ca09.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"EMCE GROUP\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-23\",\n    \"invoiceDueAt\": \"2023-01-23\",\n    \"amount\": 17100,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 780.0,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 650,\n            \"discount\": 0,\n            \"amount\": 780,\n            \"name\": \"HONORAIRE JANVIER 24\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "bf9aca88-d021-4351-9777-a41945858ac1",
+        "image": "finetuning_dataset/images/bf9aca88-d021-4351-9777-a41945858ac1.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 494.58,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 412.15,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 412.15,\n            \"discount\": 0,\n            \"amount\": 494.58,\n            \"name\": \"Forfait Orange Pro 22H\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "e711e426-5d73-4957-9406-21b8d155bf16",
+        "image": "finetuning_dataset/images/e711e426-5d73-4957-9406-21b8d155bf16.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Dar Dada\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-10\",\n    \"invoiceDueAt\": null,\n    \"amount\": 12789.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 12709.0,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 10640.83,\n            \"discount\": null,\n            \"amount\": 12789.0,\n            \"name\": \"Menu a partir de 650 dhs\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "2e415f1b-8441-47e3-b457-31045316fdab",
+        "image": "finetuning_dataset/images/2e415f1b-8441-47e3-b457-31045316fdab.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 649.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 540.83,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 450.69,\n            \"discount\": 0,\n            \"amount\": 540.83,\n            \"name\": \"Orange Duo Fibre Plus Ese\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "66081225-fb26-469a-a71f-24855583be30",
+        "image": "finetuning_dataset/images/66081225-fb26-469a-a71f-24855583be30.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"MAGHREBAIL\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"ANGLE BD BRAHIM ROUDNI ET RUE ABOU SALT ANDALOUSSI CASABLANCA\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-01\",\n    \"invoiceDueAt\": null,\n    \"amount\": 22654.98,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 18879.15,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 15735.12,\n            \"discount\": 0,\n            \"amount\": 18879.15,\n            \"name\": \"REDEVANCE LOCATIVE OBJET DU CONTRAT DE CREDIT-BAIL\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "7ecac463-ddc0-4076-ba89-56c25cd1c1b4",
+        "image": "finetuning_dataset/images/7ecac463-ddc0-4076-ba89-56c25cd1c1b4.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C. BIS.COM\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"RUE AOUAL SALET E\\nBP BOITE POSTALE\\n20064 CASABLANCA\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-12-31\",\n    \"invoiceDueAt\": \"2024-01-16\",\n    \"amount\": 189.2,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 157.67,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 131.53,\n            \"discount\": 0,\n            \"amount\": 157.67,\n            \"name\": \"Votre service client\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "e5328d3e-523c-4b5b-ad01-8521c62d641c",
+        "image": "finetuning_dataset/images/e5328d3e-523c-4b5b-ad01-8521c62d641c.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-12\",\n    \"invoiceDueAt\": null,\n    \"amount\": 99,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 82.5,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 82.5,\n            \"discount\": 0,\n            \"amount\": 99,\n            \"name\": \"Forfait Orange Pro 15H ST\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "b7e55ce6-1a20-45e7-af45-d8fae689f7b2",
+        "image": "finetuning_dataset/images/b7e55ce6-1a20-45e7-af45-d8fae689f7b2.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "90c35580-ff01-4f6c-b8c2-a2f5a233d445",
+        "image": "finetuning_dataset/images/90c35580-ff01-4f6c-b8c2-a2f5a233d445.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"STE C BIS.COM\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"2 RUE ABOU ASSALTE ANDALOUSSI\\nANGLE BOULEVARD BRAHIM\\nROUDANI\\nCASABLANCA\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-01\",\n    \"invoiceDueAt\": null,\n    \"amount\": 481.8,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 56.7,\n            \"quantity\": 10,\n            \"tva\": 20,\n            \"netAmount\": 567,\n            \"discount\": null,\n            \"amount\": 567,\n            \"name\": \"BC CICOCO 20x50g R70\"\n        },\n        {\n            \"unitPrice\": 5.75,\n            \"quantity\": 50,\n            \"tva\": 20,\n            \"netAmount\": 287.5,\n            \"discount\": null,\n            \"amount\": 287.5,\n            \"name\": \"WE TOKYO\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "0bd7eb87-9c9f-413e-b2e3-69c27deac35d",
+        "image": "finetuning_dataset/images/0bd7eb87-9c9f-413e-b2e3-69c27deac35d.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "8457ce8c-d270-4be4-9432-00b7634c6ed2",
+        "image": "finetuning_dataset/images/8457ce8c-d270-4be4-9432-00b7634c6ed2.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"MOOD SERVICE SARL\",\n        \"ICE\": \"00158158300054\",\n        \"email\": \"contact@mood-service.ma\",\n        \"invoiceAddress\": \"Rue Abou Abboud Andaloussi Angle Boulevard Roudani Casablanca\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-03\",\n    \"invoiceDueAt\": null,\n    \"amount\": 2496.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 90.0,\n            \"quantity\": 15.0,\n            \"tva\": 20.0,\n            \"netAmount\": 1350.0,\n            \"discount\": null,\n            \"amount\": 1350.0,\n            \"name\": \"Prestation d'impression vinyle pour Bureaux\"\n        },\n        {\n            \"unitPrice\": 90.0,\n            \"quantity\": 10.0,\n            \"tva\": 20.0,\n            \"netAmount\": 900.0,\n            \"discount\": null,\n            \"amount\": 900.0,\n            \"name\": \"Fourniture + pose\"\n        },\n        {\n            \"unitPrice\": 25.0,\n            \"quantity\": 2.0,\n            \"tva\": 20.0,\n            \"netAmount\": 50.0,\n            \"discount\": null,\n            \"amount\": 50.0,\n            \"name\": \"impression HD sur vinyle mat plus d\\u00e9coupe 10m.\"\n        },\n        {\n            \"unitPrice\": 90.0,\n            \"quantity\": 0.2,\n            \"tva\": 20.0,\n            \"netAmount\": 18.0,\n            \"discount\": null,\n            \"amount\": 18.0,\n            \"name\": \"impression logo vinyle d\\u00e9coupe 185 cm*35cm\"\n        },\n        {\n            \"unitPrice\": 500.0,\n            \"quantity\": 0.1,\n            \"tva\": 20.0,\n            \"netAmount\": 50.0,\n            \"discount\": null,\n            \"amount\": 50.0,\n            \"name\": \"pose\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "757482e4-2fd6-4e5b-a528-c915f0e38405",
+        "image": "finetuning_dataset/images/757482e4-2fd6-4e5b-a528-c915f0e38405.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Lydec\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-16\",\n    \"invoiceDueAt\": null,\n    \"amount\": 1271.08,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 256.1,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 213.42,\n            \"discount\": 0,\n            \"amount\": 256.1,\n            \"name\": \"Consommation Electricite\"\n        },\n        {\n            \"unitPrice\": 64.84,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 54.03,\n            \"discount\": 0,\n            \"amount\": 64.84,\n            \"name\": \"Consommation Eau\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "f7d9ed09-5fa2-4dd1-9d7d-fc7e0c58e2d3",
+        "image": "finetuning_dataset/images/f7d9ed09-5fa2-4dd1-9d7d-fc7e0c58e2d3.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 249,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 207.5,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 172.92,\n            \"discount\": 0,\n            \"amount\": 207.5,\n            \"name\": \"Frais Mensuels\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "cd219fde-21fc-4684-9f71-e1483424945d",
+        "image": "finetuning_dataset/images/cd219fde-21fc-4684-9f71-e1483424945d.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 449,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 374.17,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 374.17,\n            \"discount\": 0,\n            \"amount\": 449,\n            \"name\": \"abonnement mensuel\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "43692e09-8312-43d1-8a81-04593abd3999",
+        "image": "finetuning_dataset/images/43692e09-8312-43d1-8a81-04593abd3999.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 264.6,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 220.5,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 220.5,\n            \"discount\": 0,\n            \"amount\": 264.6,\n            \"name\": \"Forfait Orange Pro 6H At Option 39 DHS\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "991483ef-3b06-4e46-be04-8fe1d77b5828",
+        "image": "finetuning_dataset/images/991483ef-3b06-4e46-be04-8fe1d77b5828.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 649,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 540.83,\n            \"quantity\": 1,\n            \"tva\": 108.17,\n            \"netAmount\": 540.83,\n            \"discount\": 0,\n            \"amount\": 649,\n            \"name\": \"Mobile\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "d23f095b-dab6-4253-8ea8-1a137cfc67a9",
+        "image": "finetuning_dataset/images/d23f095b-dab6-4253-8ea8-1a137cfc67a9.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-12\",\n    \"invoiceDueAt\": null,\n    \"amount\": 649.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 540.83,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 450.69,\n            \"discount\": 0,\n            \"amount\": 540.83,\n            \"name\": \"ORANGE DUO FIBRE PLUS ESE\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "bd4f1777-cf0f-45c2-8aae-e485f9b9040e",
+        "image": "finetuning_dataset/images/bd4f1777-cf0f-45c2-8aae-e485f9b9040e.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C. BIS. COM\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"2, Rue Abou Assoult Andaloussi angle Bd Brahim Roudaani\\n20330 - CASABLANCA\\nMaroc\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-01\",\n    \"invoiceDueAt\": null,\n    \"amount\": 62498.83,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 165.83,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 165.83,\n            \"discount\": 0,\n            \"amount\": 165.83,\n            \"name\": \"Offre Double Play\"\n        },\n        {\n            \"unitPrice\": 99.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 99.0,\n            \"discount\": 0,\n            \"amount\": 99.0,\n            \"name\": \"Abonnement Ligne Analogique\"\n        },\n        {\n            \"unitPrice\": 1600.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 1600.0,\n            \"discount\": 0,\n            \"amount\": 1600.0,\n            \"name\": \"Abonnement forfaitaire 1600 monossite\"\n        },\n        {\n            \"unitPrice\": 599.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 599.0,\n            \"discount\": 0,\n            \"amount\": 599.0,\n            \"name\": \"Abonnement play R 6 Mbps\"\n        },\n        {\n            \"unitPrice\": 32.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 32.0,\n            \"discount\": 0,\n            \"amount\": 32.0,\n            \"name\": \"Internet Haut D\\u00e9bit 50 Mbps\"\n        },\n        {\n            \"unitPrice\": 28.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 28.0,\n            \"discount\": 0,\n            \"amount\": 28.0,\n            \"name\": \"Internet Haut D\\u00e9bit FO 50 Mbps\"\n        },\n        {\n            \"unitPrice\": 10.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 10.0,\n            \"discount\": 0,\n            \"amount\": 10.0,\n            \"name\": \"IP fixe supplementaire\"\n        },\n        {\n            \"unitPrice\": 25.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 25.0,\n            \"discount\": 0,\n            \"amount\": 25.0,\n            \"name\": \"Abonnement Pack NDD\"\n        },\n        {\n            \"unitPrice\": 0.0,\n            \"quantity\": 3,\n            \"tva\": 0,\n            \"netAmount\": 0.0,\n            \"discount\": 0,\n            \"amount\": 0.0,\n            \"name\": \"Appels nationaux fixes inwi\"\n        },\n        {\n            \"unitPrice\": 0.0,\n            \"quantity\": 25,\n            \"tva\": 0,\n            \"netAmount\": 0.0,\n            \"discount\": 0,\n            \"amount\": 0.0,\n            \"name\": \"Appels nationaux mobiles autres operateurs\"\n        },\n        {\n            \"unitPrice\": 0.0,\n            \"quantity\": 197,\n            \"tva\": 0,\n            \"netAmount\": 0.0,\n            \"discount\": 0,\n            \"amount\": 0.0,\n            \"name\": \"Appels nationaux mobiles inwi\"\n        },\n        {\n            \"unitPrice\": 0.0,\n            \"quantity\": 3,\n            \"tva\": 0,\n            \"netAmount\": 0.0,\n            \"discount\": 0,\n            \"amount\": 0.0,\n            \"name\": \"Autres Appels\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "d84cc34b-d79b-4fb7-8dba-25846712bbb0",
+        "image": "finetuning_dataset/images/d84cc34b-d79b-4fb7-8dba-25846712bbb0.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"SK GESTION SARL\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"C BIS, COM SA\\n2, RUE ABOU ASSALT\\nANDALOUSSI ANGLE BD\\nROUDANI\\nCASABLANCA MAROC\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-03\",\n    \"invoiceDueAt\": null,\n    \"amount\": 42000,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 35000,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 35000,\n            \"discount\": 0,\n            \"amount\": 35000,\n            \"name\": \"LOCATION - AMEUBLEMENT ET AMENAGEMENT JANVIER 2024\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "584a10d6-ab2f-4efe-a598-2ad206463c1e",
+        "image": "finetuning_dataset/images/584a10d6-ab2f-4efe-a598-2ad206463c1e.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 70.66,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 84.11,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 58.88,\n            \"discount\": null,\n            \"amount\": 70.66,\n            \"name\": \"Forfait Orange Pro 22H\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "c7568004-1333-4f2e-9f18-79b36cfa4f74",
+        "image": "finetuning_dataset/images/c7568004-1333-4f2e-9f18-79b36cfa4f74.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 349,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 290.83,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 242.36,\n            \"discount\": 0,\n            \"amount\": 290.83,\n            \"name\": \"SIM Only BBOX FIXE + 349\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "d8c0bf95-9710-49e4-a4ba-e707718fbcd7",
+        "image": "finetuning_dataset/images/d8c0bf95-9710-49e4-a4ba-e707718fbcd7.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "17e03acf-53aa-4f9d-99d5-c7e5afb11e4d",
+        "image": "finetuning_dataset/images/17e03acf-53aa-4f9d-99d5-c7e5afb11e4d.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "9caf9e99-5f77-4df8-9afb-389c3057c5c0",
+        "image": "finetuning_dataset/images/9caf9e99-5f77-4df8-9afb-389c3057c5c0.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Lydec\",\n        \"ICE\": null,\n        \"email\": \"contact@lydec.ma\",\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-24\",\n    \"invoiceDueAt\": null,\n    \"amount\": 1239.73,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 1.077,\n            \"quantity\": 711,\n            \"tva\": 14,\n            \"netAmount\": 1095.88,\n            \"discount\": 0,\n            \"amount\": 1239.73,\n            \"name\": \"CONSOMMATION\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "fa7821b0-5492-4fa3-81b4-cf0aa1a308c6",
+        "image": "finetuning_dataset/images/fa7821b0-5492-4fa3-81b4-cf0aa1a308c6.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C BIS.COM\",\n        \"ICE\": null,\n        \"email\": \"relationclient@orange.ma\",\n        \"invoiceAddress\": \"RUE ABOU SALT E\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-01\",\n    \"invoiceDueAt\": \"2023-01-16\",\n    \"amount\": 99.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 82.5,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 68.75,\n            \"discount\": 0,\n            \"amount\": 82.5,\n            \"name\": \"Votre service clients\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "4dc7bf5a-b6a0-4500-962d-8abbb7c2c2c2",
+        "image": "finetuning_dataset/images/4dc7bf5a-b6a0-4500-962d-8abbb7c2c2c2.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "087b7915-14b2-44ba-b8c1-e02d9b40342e",
+        "image": "finetuning_dataset/images/087b7915-14b2-44ba-b8c1-e02d9b40342e.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C. BIS. COM\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"RUE ABOU SALT E\\nRUE ABOU SALT EL ANDALOUSSI\\nCASABLANCA\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-01\",\n    \"invoiceDueAt\": \"2023-01-16\",\n    \"amount\": 498.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 415.0,\n            \"quantity\": 1,\n            \"tva\": 20.0,\n            \"netAmount\": 345.83,\n            \"discount\": 0,\n            \"amount\": 415.0,\n            \"name\": \"Forfaits/abonnements et options\"\n        },\n        {\n            \"unitPrice\": 83.0,\n            \"quantity\": 1,\n            \"tva\": 20.0,\n            \"netAmount\": 69.17,\n            \"discount\": 0,\n            \"amount\": 83.0,\n            \"name\": \"TVA (20%)\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "bc8bad39-22cc-4c2b-a9c6-3a03d7803721",
+        "image": "finetuning_dataset/images/bc8bad39-22cc-4c2b-a9c6-3a03d7803721.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 70.66,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 84.11,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 58.88,\n            \"discount\": null,\n            \"amount\": 70.66,\n            \"name\": \"Forfait Orange Pro 22H\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "34872fcb-69aa-4916-b67c-afadccb0a5f3",
+        "image": "finetuning_dataset/images/34872fcb-69aa-4916-b67c-afadccb0a5f3.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 649.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 540.83,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 450.69,\n            \"discount\": 0,\n            \"amount\": 540.83,\n            \"name\": \"Orange Duo Fibre Plus ESE\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "99ea73d3-c0e8-4764-8318-b2dbd6915a01",
+        "image": "finetuning_dataset/images/99ea73d3-c0e8-4764-8318-b2dbd6915a01.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "f7faca78-9eab-4fbc-b4c8-61f28ecbe7f4",
+        "image": "finetuning_dataset/images/f7faca78-9eab-4fbc-b4c8-61f28ecbe7f4.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Cendrillon Ayot\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"69 rue Nations\\n22000 Paris\",\n        \"shippingAddress\": \"46 Rue St Ferreol\\n92360 Isle-de-France\"\n    },\n    \"invoiceAt\": \"2019-01-29\",\n    \"invoiceDueAt\": \"2019-05-24\",\n    \"amount\": 174.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 100.0,\n            \"quantity\": 1,\n            \"tva\": 20.0,\n            \"netAmount\": 83.33,\n            \"discount\": 0.0,\n            \"amount\": 100.0,\n            \"name\": \"Grand brun escargot pour manger\"\n        },\n        {\n            \"unitPrice\": 15.0,\n            \"quantity\": 2,\n            \"tva\": 20.0,\n            \"netAmount\": 25.0,\n            \"discount\": 0.0,\n            \"amount\": 30.0,\n            \"name\": \"Petit marini\\u00e8re uniforme en bleu\"\n        },\n        {\n            \"unitPrice\": 5.0,\n            \"quantity\": 3,\n            \"tva\": 20.0,\n            \"netAmount\": 12.5,\n            \"discount\": 0.0,\n            \"amount\": 15.0,\n            \"name\": \"Facile \\u00e0 jouer accord\\u00e9on\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "73152e2f-6b72-46fa-9873-8d783d9dd701",
+        "image": "finetuning_dataset/images/73152e2f-6b72-46fa-9873-8d783d9dd701.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C.BIS.COM\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"RUE ABOU SALTE\\nBP BOITE POSTALE\\n2004 CASABLANCA\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-12-31\",\n    \"invoiceDueAt\": null,\n    \"amount\": 93.89,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 78.24,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 65.2,\n            \"discount\": 0,\n            \"amount\": 78.24,\n            \"name\": \"Votre service client\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "edb3ed08-d32f-46da-9415-4a1cd056f00b",
+        "image": "finetuning_dataset/images/edb3ed08-d32f-46da-9415-4a1cd056f00b.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 232.2,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 215,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 193.5,\n            \"discount\": null,\n            \"amount\": 232.2,\n            \"name\": \"Forfait Pro 34H AT (Option 59DH)\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "27c2f40b-64e6-4749-95ab-b5f9a5f8152f",
+        "image": "finetuning_dataset/images/27c2f40b-64e6-4749-95ab-b5f9a5f8152f.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"status\": false,\n    \"message\": \"Failed to decode JSON from response. Response was:{\\n \\\"invoiceClient\\\": {\\n   \\\"name\\\": null,\\n   \\\"ICE\\\": 0,\\n   \\\"email\\\": null,\\n   \\\"invoiceAddress\\\": null,\\n   \\\"shippingAddress\\\": null\\n },\\n \\\"invoiceAt\\\": null,\\n \\\"invoiceDueAt\\\": null,\\n \\\"amount\\\": 0,\\n \\\"invoiceItems\\\": [\\n   {\\n       \\\"unitPrice\\\": 0,\\n       \\\"quantity\\\": 0,\\n       \\\"tva\\\": 0,\\n       \\\"netAmount\\\": 0,\\n       discount: 0,\\n       \\\"amount\\\": 0,\\n       \\\"name\\\": null\\n   }\\n ]\\n}\"\n}"
+            }
+        ]
+    },
+    {
+        "id": "edb37e8e-c7cc-47c7-b4bf-98269a227df2",
+        "image": "finetuning_dataset/images/edb37e8e-c7cc-47c7-b4bf-98269a227df2.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "eb87c4ed-c48a-4b3c-bb55-675cb6a5575d",
+        "image": "finetuning_dataset/images/eb87c4ed-c48a-4b3c-bb55-675cb6a5575d.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"UP MAROC\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"2, Rue Abou Salt Andaloussi\\nAngle Bd Brahim Roudani\\nCasablanca\\nMorocco\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-02-17\",\n    \"invoiceDueAt\": \"2023-03-04\",\n    \"amount\": 4594.4,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 1000.0,\n            \"quantity\": 1.0,\n            \"tva\": 20.0,\n            \"netAmount\": 833.33,\n            \"discount\": null,\n            \"amount\": 1000.0,\n            \"name\": \"En carnet: 20 bons de 50 dhs\"\n        },\n        {\n            \"unitPrice\": 500.0,\n            \"quantity\": 2.0,\n            \"tva\": 20.0,\n            \"netAmount\": 833.33,\n            \"discount\": null,\n            \"amount\": 1000.0,\n            \"name\": \"En carnet: 12 bons de 50 dhs\"\n        },\n        {\n            \"unitPrice\": 600.0,\n            \"quantity\": 1.0,\n            \"tva\": 20.0,\n            \"netAmount\": 500.0,\n            \"discount\": null,\n            \"amount\": 600.0,\n            \"name\": \"En carnet: 6 bons de 50 dhs\"\n        },\n        {\n            \"unitPrice\": 250.0,\n            \"quantity\": 2.0,\n            \"tva\": 20.0,\n            \"netAmount\": 416.67,\n            \"discount\": null,\n            \"amount\": 500.0,\n            \"name\": \"En carnet: 4 bons de 50 dhs\"\n        },\n        {\n            \"unitPrice\": 4000.0,\n            \"quantity\": 1.0,\n            \"tva\": 20.0,\n            \"netAmount\": 3333.33,\n            \"discount\": null,\n            \"amount\": 4000.0,\n            \"name\": \"Prestation service\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "6f678ae3-d0e0-41e9-8218-622aeef88184",
+        "image": "finetuning_dataset/images/6f678ae3-d0e0-41e9-8218-622aeef88184.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "86962ff5-744b-425b-aaca-5b11b844ebc0",
+        "image": "finetuning_dataset/images/86962ff5-744b-425b-aaca-5b11b844ebc0.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-03-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 349.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 290.83,\n            \"quantity\": 1,\n            \"tva\": 58.17,\n            \"netAmount\": 290.83,\n            \"discount\": 0,\n            \"amount\": 349.0,\n            \"name\": \"SIM Only Blox Fixe + 349\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "b0a400d7-a9ea-4586-8bcf-1a8513576ac1",
+        "image": "finetuning_dataset/images/b0a400d7-a9ea-4586-8bcf-1a8513576ac1.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"ATLAS GLOBE\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"2 Rue Abou Assalte Andaloussi\\nAngle Boulevard\\nRouadi Ma\\u00e2rif\\nCASABLANCA 20330\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-03\",\n    \"invoiceDueAt\": null,\n    \"amount\": 7200,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 750,\n            \"quantity\": 7,\n            \"tva\": 20,\n            \"netAmount\": 5250,\n            \"discount\": null,\n            \"amount\": 5250,\n            \"name\": \"LOCATION FONTAINE D'EAU SAPHIR IUF\"\n        },\n        {\n            \"unitPrice\": 750,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 750,\n            \"discount\": null,\n            \"amount\": 750,\n            \"name\": \"Salon l'avenant au contrat de location\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "97f6a41e-cc0a-449c-9d7b-e45b2731d804",
+        "image": "finetuning_dataset/images/97f6a41e-cc0a-449c-9d7b-e45b2731d804.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": 0,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+            }
+        ]
+    },
+    {
+        "id": "7318133c-889f-4575-aa8d-e0e290012555",
+        "image": "finetuning_dataset/images/7318133c-889f-4575-aa8d-e0e290012555.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"SADDICK ADAM\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"9 AVENUE ALEO ALAGRANCE, APPT A218\\n94190 VIALAINEUVE-SAINT-GEORGES\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2019-10-03\",\n    \"invoiceDueAt\": null,\n    \"amount\": 71.17,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 59.31,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": null,\n            \"discount\": null,\n            \"amount\": 71.17,\n            \"name\": \"abonnement principal\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "1477a0dd-5ee5-40e5-bd50-347475475f5c",
+        "image": "finetuning_dataset/images/1477a0dd-5ee5-40e5-bd50-347475475f5c.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-26\",\n    \"invoiceDueAt\": null,\n    \"amount\": 173.8,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 209.36,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"netAmount\": 144.83,\n            \"discount\": 64.52,\n            \"amount\": 173.8,\n            \"name\": \"ORANGE DU FIBRE PLUS ESE\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "8a32e86f-2c6b-4fe1-8f79-ff861cbd9102",
+        "image": "finetuning_dataset/images/8a32e86f-2c6b-4fe1-8f79-ff861cbd9102.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Cabinet Dr Brahim Bouzidi\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"2, Rue Abou Assa\\u00e2d Andaloussi\\nAngle Bd Brahim Roudaani\\nMaarif\\n20330, Casablanca\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-31\",\n    \"invoiceDueAt\": null,\n    \"amount\": 14859.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 8367.6,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 8367.6,\n            \"discount\": 0,\n            \"amount\": 8367.6,\n            \"name\": \"AMEL FACILITIES\"\n        },\n        {\n            \"unitPrice\": 5946.6,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 5946.6,\n            \"discount\": 0,\n            \"amount\": 5946.6,\n            \"name\": \"INK SERVICES\"\n        },\n        {\n            \"unitPrice\": 1800.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 1800.0,\n            \"discount\": 0,\n            \"amount\": 1800.0,\n            \"name\": \"HAICHRI MOHAMED\"\n        },\n        {\n            \"unitPrice\": null,\n            \"quantity\": null,\n            \"tva\": null,\n            \"netAmount\": null,\n            \"discount\": null,\n            \"amount\": null,\n            \"name\": \"HUISSIER\"\n        },\n        {\n            \"unitPrice\": null,\n            \"quantity\": null,\n            \"tva\": null,\n            \"netAmount\": null,\n            \"discount\": null,\n            \"amount\": null,\n            \"name\": \"JUSTICE\"\n        },\n        {\n            \"unitPrice\": null,\n            \"quantity\": null,\n            \"tva\": null,\n            \"netAmount\": null,\n            \"discount\": null,\n            \"amount\": null,\n            \"name\": \"ASSERMENTE\"\n        },\n        {\n            \"unitPrice\": 1560.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 1560.0,\n            \"discount\": 0,\n            \"amount\": 1560.0,\n            \"name\": \"STE HOLLY\"\n        },\n        {\n            \"unitPrice\": 3249.6,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 3249.6,\n            \"discount\": 0,\n            \"amount\": 3249.6,\n            \"name\": \"MENA CORPORATE\"\n        },\n        {\n            \"unitPrice\": 4974.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 4974.0,\n            \"discount\": 0,\n            \"amount\": 4974.0,\n            \"name\": \"Dr Salmi\"\n        },\n        {\n            \"unitPrice\": 2988.8,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 2988.8,\n            \"discount\": 0,\n            \"amount\": 2988.8,\n            \"name\": \"Menuiserie Ebisterie\\n\\\"SALAMA\\\"\"\n        },\n        {\n            \"unitPrice\": 672.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 672.0,\n            \"discount\": 0,\n            \"amount\": 672.0,\n            \"name\": \"Cadhoc (Up Filiale\\nMaroc)\"\n        },\n        {\n            \"unitPrice\": null,\n            \"quantity\": null,\n            \"tva\": null,\n            \"netAmount\": null,\n            \"discount\": null,\n            \"amount\": null,\n            \"name\": \"Universele\\nENTREPRENEUR\"\n        },\n        {\n            \"unitPrice\": 10000.0,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"netAmount\": 10000.0,\n            \"discount\": 0,\n            \"amount\": 10000.0,\n            \"name\": \"FOUAD aaras\"\n        }\n    ]\n}"
+            }
+        ]
+    },
+    {
+        "id": "0731960b-62e6-4831-b59a-cbfc295561b5",
+        "image": "finetuning_dataset/images/0731960b-62e6-4831-b59a-cbfc295561b5.jpg",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nExtract in json format information from the invoice image."
+            },
+            {
+                "from": "gpt",
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Lydec\",\n        \"ICE\": null,\n        \"email\": \"contact@lydec.ma\",\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-12\",\n    \"invoiceDueAt\": null,\n    \"amount\": 1686.29,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 1.377,\n            \"quantity\": 627,\n            \"tva\": 0.2,\n            \"netAmount\": 869.64,\n            \"discount\": 0,\n            \"amount\": 1038.08,\n            \"name\": \"Electricity\"\n        },\n        {\n            \"unitPrice\": 162.4,\n            \"quantity\": 11,\n            \"tva\": 0.2,\n            \"netAmount\": 17.86,\n            \"discount\": 0,\n            \"amount\": 21.43,\n            \"name\": \"Water\"\n        }\n    ]\n}"
+            }
+        ]
+    }
+]
