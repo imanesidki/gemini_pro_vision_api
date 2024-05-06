@@ -70,20 +70,6 @@
         ]
     },
     {
-        "id": "01b180a4-7ec9-4fe0-9f1d-79096ad4f505",
-        "image": "finetuning_dataset/images/01b180a4-7ec9-4fe0-9f1d-79096ad4f505.jpg",
-        "conversations": [
-            {                
-                "from": "human",
-                "value": "<image>\nExtract in json format information from the invoice image."
-            },
-            {
-                "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C BIS.COM\",\n        \"ICE\": \"00158183000054\",\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-01\",\n    \"invoiceDueAt\": null,\n    \"amount\": 8367.6,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 8367.6,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"discount\": 0,\n            \"netAmount\": 8367.6,\n            \"amount\": 8367.6,\n            \"name\": \"Cadhoc (Up Filiale 28980.80)\"\n        }\n    ]\n}"
-            }
-        ]
-    },
-    {
         "id": "03275b76-64dc-4372-b753-53d040016e04",
         "image": "finetuning_dataset/images/03275b76-64dc-4372-b753-53d040016e04.jpg",
         "conversations": [
@@ -107,7 +93,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"MME NAVEAU LAURENCE\",\n        \"ICE\": null,\n        \"email\": \"laura.naveau@orange.fr\",\n        \"invoiceAddress\": \"37160 CIVRAY SUR ESVES\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2021-07-27\",\n    \"invoiceDueAt\": null,\n    \"amount\": 44.8,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 37.33,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 37.33,\n            \"amount\": 44.8,\n            \"name\": \"Livebox\"\n        }\n    ]\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"MME NAVEAU LAURENCE\",\n        \"ICE\": null,\n        \"email\": \"laura.naveau@orange.fr\",\n        \"invoiceAddress\": \"LA PERRUCHE 37160 CIVRAY SUR ESVES\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2021-07-27\",\n    \"invoiceDueAt\": null,\n    \"amount\": 44.8,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 37.33,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 37.33,\n            \"amount\": 44.8,\n            \"name\": \"Livebox - Orange\"\n        }\n    ]\n}"
             }
         ]
     },
@@ -121,7 +107,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"MENA Corporate Solutions\",\n        \"ICE\": \"001581583000054\",\n        \"email\": \"Cbls.com\",\n        \"invoiceAddress\": \"Rue Abou Abbasi Al Andaloussi, 2 20330 Casablanca Morocco\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-30\",\n    \"invoiceDueAt\": \"2023-02-28\",\n    \"amount\": 3249.6,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 2708.0,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 2708.0,\n            \"amount\": 2708.0,\n            \"name\": \"ALTISSIA global license\"\n        },\n        {\n            \"unitPrice\": null,\n            \"quantity\": null,\n            \"tva\": null,\n            \"discount\": 0,\n            \"netAmount\": null,\n            \"amount\": null,\n            \"name\": \"ELFA (E-learning platform) Level Assessment stand alone\"\n        }\n    ]\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Cbis.com\",\n        \"ICE\": \"001581583000054\",\n        \"email\": null,\n        \"invoiceAddress\": \"Rue Abou Abbasi Al Andaloussi, 2 20330 Casablanca Morocco\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-30\",\n    \"invoiceDueAt\": \"2024-02-29\",\n    \"amount\": 3249.6,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 2708.0,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 2708.0,\n            \"amount\": 2708.0,\n            \"name\": \"ALTISSIA global license\"\n        },\n    ]\n}"
             }
         ]
     },
@@ -135,7 +121,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C BIS.COM\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"RUE ABOU SALT E\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-01\",\n    \"invoiceDueAt\": null,\n    \"amount\": 99,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 82.5,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 82.5,\n            \"amount\": 99,\n            \"name\": \"Votre service clients\"\n        }\n    ]\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C BIS.COM\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"RUE ABOU SALT EL ANDALOUSSI 20000 CASABLANCA\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-02\",\n    \"invoiceDueAt\": \"2024-01-16\",\n    \"amount\": 99,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 82.5,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 82.5,\n            \"amount\": 99,\n            \"name\": \"Facture forfait/abonnement Orange\"\n        }\n    ]\n}"
             }
         ]
     },
@@ -639,7 +625,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"ATLAS GLOBE MAROC\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2022-12-26\",\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 0,\n            \"quantity\": 1000,\n            \"tva\": 0,\n            \"discount\": 0,\n            \"netAmount\": 0,\n            \"amount\": 0,\n            \"name\": \"SAPHIR1-UF\"\n        }\n    ]\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"CBIS COM\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": \"SITE TANGER 20330\"\n    },\n    \"invoiceAt\": \"2023-12-26\",\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 0,\n            \"quantity\": 1000,\n            \"tva\": 0,\n            \"discount\": 0,\n            \"netAmount\": 1000,\n            \"amount\": 1000,\n            \"name\": \"[SAPHIR1-UF]FANTAINE EAU CONNECTEE AU RESEAU D'EAU AVEC SYSTEME ULTRA FILTATION\"\n        }\n    ]\n}"
             }
         ]
     },
@@ -653,7 +639,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": \"CHOCOLUX Casablanca\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-15\",\n    \"invoiceDueAt\": null,\n    \"amount\": 3650.0,\n    \"invoiceItems\": []\n}"
             }
         ]
     },
@@ -667,7 +653,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"CIBISCOM\",\n        \"ICE\": \"00158158300054\",\n        \"email\": null,\n        \"invoiceAddress\": \"2, Rue Abou Assal Andaloussi\\nAngle Bd Brahim Roudaani Maarif 20 330\\nCASABLANCA\\nMorocco\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-16\",\n    \"invoiceDueAt\": null,\n    \"amount\": 6210.39,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 6210.39,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 5175.33,\n            \"amount\": 6210.39,\n            \"name\": \"Mercedes Classe A W177 PHT 180 d 116 Distinctive 8G-DCT\"\n        }\n    ]\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"CIBISCOM\",\n        \"ICE\": \"00158158300054\",\n        \"email\": null,\n        \"invoiceAddress\": \"2, Rue Abou Assal Andaloussi\\nAngle Bd Brahim Roudaani Maarif 20 330\\nCASABLANCA\\nMorocco\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-16\",\n    \"invoiceDueAt\": null,\n    \"amount\": 7452.47,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 6210.39,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 6210.39,\n            \"amount\": 6210.39,\n            \"name\": \"Mercedes Classe A W177 PHT 180 d 116 Distinctive 8G-DCT\"\n        }\n    ]\n}"
             }
         ]
     },
@@ -877,21 +863,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"CBIS.COM\",\n        \"ICE\": \"0581583000054\",\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-02-01\",\n    \"invoiceDueAt\": null,\n    \"amount\": 1249.91,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 20,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 16.67,\n            \"amount\": 20,\n            \"name\": \"FRAIS DE TRANSPORT\"\n        },\n        {\n            \"unitPrice\": 30,\n            \"quantity\": 2,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 50,\n            \"amount\": 60,\n            \"name\": \"BANDES VELCRO VELCRO SCRATCH AUTOCOLLANTES (18PCS)\"\n        },\n        {\n            \"unitPrice\": 18,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 15,\n            \"amount\": 18,\n            \"name\": \"525MMX40MM\"\n        },\n        {\n            \"unitPrice\": 14.9,\n            \"quantity\": 10,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 124.17,\n            \"amount\": 149,\n            \"name\": \"BROSSE MULTIFONCTIONS AVEC RESERVOIR ET EPONGEUR\"\n        },\n        {\n            \"unitPrice\": 31,\n            \"quantity\": 2,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 51.67,\n            \"amount\": 62,\n            \"name\": \"SATEF LAVE VAISSELLE KALYON REF B BLEU\"\n        },\n        {\n            \"unitPrice\": 46.9,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 39.12,\n            \"amount\": 46.9,\n            \"name\": \"SIGNALETIQUE PROPRET\\u00c9 HYGIENE\"\n        },\n        {\n            \"unitPrice\": 22.9,\n            \"quantity\": 2,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 38.17,\n            \"amount\": 45.8,\n            \"name\": \"POT ONO GREENER 11CM OCEAN\"\n        },\n        {\n            \"unitPrice\": 42,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 35,\n            \"amount\": 42,\n            \"name\": \"POT ONO GREENER 11CM ANTHRACITE\"\n        },\n        {\n            \"unitPrice\": 16.9,\n            \"quantity\": 2,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 28.17,\n            \"amount\": 33.8,\n            \"name\": \"POU SODA\"\n        },\n        {\n            \"unitPrice\": 21.9,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 18.25,\n            \"amount\": 21.9,\n            \"name\": \"SHAMPOOING SIEGE MOQUETTE DE VOITURE ELAPHANT-3781\"\n        },\n        {\n            \"unitPrice\": 189,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 157.5,\n            \"amount\": 189,\n            \"name\": \"BUILE DECORATIVES -C27310-1-30MM-SAC DE 500G\"\n        },\n        {\n            \"unitPrice\": 21.9,\n            \"quantity\": 2,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 36.5,\n            \"amount\": 43.8,\n            \"name\": \"BILLES DECORATIVES-CP393-20MM-SAC DE 500G\"\n        },\n        {\n            \"unitPrice\": 22,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 18.33,\n            \"amount\": 22,\n            \"name\": \"2 BRIQUES ADHESIVES 40X35\"\n        },\n        {\n            \"unitPrice\": 20,\n            \"quantity\": 3,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 50,\n            \"amount\": 60,\n            \"name\": \"LAMES D'EAU - 500 PIECES -VES-3583\"\n        },\n        {\n            \"unitPrice\": 19.9,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 16.6,\n            \"amount\": 19.9,\n            \"name\": \"LIQUIDE VAISSELLE PACK DE 4 EPONGES ABSORBANTES A005605\"\n        },\n        {\n            \"unitPrice\": 15,\n            \"quantity\": 2,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 25,\n            \"amount\": 30,\n            \"name\": \"24 REFERENCE(S)\"\n        }\n    ]\n}"
-            }
-        ]
-    },
-    {
-        "id": "3c6eb6bc-dc38-45e4-9826-21df2a5dad3f",
-        "image": "finetuning_dataset/images/3c6eb6bc-dc38-45e4-9826-21df2a5dad3f.jpg",
-        "conversations": [
-            {
-                "from": "human",
-                "value": "<image>\nExtract in json format information from the invoice image."
-            },
-            {
-                "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"AMEL FACILITIES\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-01\",\n    \"invoiceDueAt\": \"2024-01-31\",\n    \"amount\": 8367.6,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 8367.6,\n            \"quantity\": 1,\n            \"tva\": 0,\n            \"discount\": 0,\n            \"netAmount\": 8367.6,\n            \"amount\": 8367.6,\n            \"name\": \"Prestation de service\"\n        }\n    ]\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"CBIS.COM\",\n        \"ICE\": \"0581583000054\",\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-02-01\",\n    \"invoiceDueAt\": null,\n    \"amount\": 1249.91,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 30,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 30,\n            \"amount\": 30,\n            \"name\": \"FRAIS DE TRANSPORT\"\n        },\n        {\n            \"unitPrice\": 18,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 18,\n            \"amount\": 18,\n            \"name\": \"BANDES VELCRO VELCRO SCRATCH AUTOCOLLANTES (18PCS)\"\n        },\n        {\n            \"unitPrice\": 18,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 15,\n            \"amount\": 18,\n            \"name\": \"525MMX40MM\"\n        },\n        {\n            \"unitPrice\": 14.9,\n            \"quantity\": 10,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 124.17,\n            \"amount\": 149,\n            \"name\": \"BROSSE MULTIFONCTIONS AVEC RESERVOIR ET EPONGEUR\"\n        },\n        {\n            \"unitPrice\": 31,\n            \"quantity\": 2,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 51.67,\n            \"amount\": 62,\n            \"name\": \"SATEF LAVE VAISSELLE KALYON REF B BLEU\"\n        },\n        {\n            \"unitPrice\": 46.9,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 39.12,\n            \"amount\": 46.9,\n            \"name\": \"SIGNALETIQUE PROPRET\\u00c9 HYGIENE\"\n        },\n        {\n            \"unitPrice\": 22.9,\n            \"quantity\": 2,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 38.17,\n            \"amount\": 45.8,\n            \"name\": \"POT ONO GREENER 11CM OCEAN\"\n        },\n        {\n            \"unitPrice\": 42,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 35,\n            \"amount\": 42,\n            \"name\": \"POT ONO GREENER 11CM ANTHRACITE\"\n        },\n        {\n            \"unitPrice\": 16.9,\n            \"quantity\": 2,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 28.17,\n            \"amount\": 33.8,\n            \"name\": \"POU SODA\"\n        },\n        {\n            \"unitPrice\": 21.9,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 18.25,\n            \"amount\": 21.9,\n            \"name\": \"SHAMPOOING SIEGE MOQUETTE DE VOITURE ELAPHANT-3781\"\n        },\n        {\n            \"unitPrice\": 189,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 157.5,\n            \"amount\": 189,\n            \"name\": \"BUILE DECORATIVES -C27310-1-30MM-SAC DE 500G\"\n        },\n        {\n            \"unitPrice\": 21.9,\n            \"quantity\": 2,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 36.5,\n            \"amount\": 43.8,\n            \"name\": \"BILLES DECORATIVES-CP393-20MM-SAC DE 500G\"\n        },\n        {\n            \"unitPrice\": 22,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 18.33,\n            \"amount\": 22,\n            \"name\": \"2 BRIQUES ADHESIVES 40X35\"\n        },\n        {\n            \"unitPrice\": 20,\n            \"quantity\": 3,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 50,\n            \"amount\": 60,\n            \"name\": \"LAMES D'EAU - 500 PIECES -VES-3583\"\n        },\n        {\n            \"unitPrice\": 19.9,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 16.6,\n            \"amount\": 19.9,\n            \"name\": \"LIQUIDE VAISSELLE PACK DE 4 EPONGES ABSORBANTES A005605\"\n        },\n        {\n            \"unitPrice\": 15,\n            \"quantity\": 2,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 25,\n            \"amount\": 30,\n            \"name\": \"24 REFERENCE(S)\"\n        }\n    ]\n}"
             }
         ]
     },
@@ -1073,7 +1045,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-12\",\n    \"invoiceDueAt\": null,\n    \"amount\": 649,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 540.83,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 540.83,\n            \"amount\": 649,\n            \"name\": \"Orange Duo Fibre Plus CSE\"\n        }\n    ]\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C_BIS_COM\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-12-01\",\n    \"invoiceDueAt\": null,\n    \"amount\": 649,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 540.83,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 540.83,\n            \"amount\": 649,\n            \"name\": \"Orange Duo Fibre Plus ESE\"\n        }\n    ]\n}"
             }
         ]
     },
@@ -1087,7 +1059,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"LYDEC\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-02-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 3128.51,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 0,\n            \"quantity\": 0,\n            \"tva\": 0,\n            \"discount\": 0,\n            \"netAmount\": 0,\n            \"amount\": 0,\n            \"name\": null\n        }\n    ]\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"LYDEC\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": Casablanca,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-02-08\",\n    \"invoiceDueAt\": null,\n    \"amount\": 31235.51,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 0,\n            \"quantity\": 0,\n            \"tva\": 0,\n            \"discount\": 0,\n            \"netAmount\": 0,\n            \"amount\": 0,\n            \"name\": null\n        }\n    ]\n}"
             }
         ]
     },
@@ -1101,7 +1073,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C BIS. COM\",\n        \"ICE\": \"001581583000054\",\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-12-01\",\n    \"invoiceDueAt\": null,\n    \"amount\": 894.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 45.0,\n            \"quantity\": 3,\n            \"tva\": 20.0,\n            \"discount\": 0,\n            \"netAmount\": 135.0,\n            \"amount\": 135.0,\n            \"name\": \"Impression / papier poster\"\n        },\n        {\n            \"unitPrice\": 1.0,\n            \"quantity\": 500,\n            \"tva\": 20.0,\n            \"discount\": 0,\n            \"netAmount\": 500.0,\n            \"amount\": 500.0,\n            \"name\": \"Carte A6 R/V + PM R/V\"\n        },\n        {\n            \"unitPrice\": 10.0,\n            \"quantity\": 80,\n            \"tva\": 20.0,\n            \"discount\": 0,\n            \"netAmount\": 800.0,\n            \"amount\": 1000.0,\n            \"name\": \"Carte Format (17.5/9.5 cm) PM\"\n        },\n        {\n            \"unitPrice\": 10.0,\n            \"quantity\": 1,\n            \"tva\": 20.0,\n            \"discount\": 0,\n            \"netAmount\": 10.0,\n            \"amount\": 10.0,\n            \"name\": \"A3 recto\"\n        }\n    ]\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C BIS. COM\",\n        \"ICE\": \"001581583000054\",\n        \"email\": null,\n        \"invoiceAddress\": Casablanca,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-12\",\n    \"invoiceDueAt\": null,\n    \"amount\": 894.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 45.0,\n            \"quantity\": 3,\n            \"tva\": 20.0,\n            \"discount\": 0,\n            \"netAmount\": 135.0,\n            \"amount\": 135.0,\n            \"name\": \"Impression / papier poster Format A1\"\n        },\n        {\n            \"unitPrice\": 1.0,\n            \"quantity\": 500,\n            \"tva\": 20.0,\n            \"discount\": 0,\n            \"netAmount\": 500.0,\n            \"amount\": 500.0,\n            \"name\": \"Carte A6 R/V + PM R/V\"\n        },\n        {\n            \"unitPrice\": 1.25,\n            \"quantity\": 80,\n            \"tva\": 20.0,\n            \"discount\": 0,\n            \"netAmount\": 100.0,\n            \"amount\": 100.0,\n            \"name\": \"Carte Format (17.5/9.5 cm) PM\"\n        },\n        {\n            \"unitPrice\": 10.0,\n            \"quantity\": 1,\n            \"tva\": 20.0,\n            \"discount\": 0,\n            \"netAmount\": 10.0,\n            \"amount\": 10.0,\n            \"name\": \"A3 recto\"\n        }\n    ]\n}"
             }
         ]
     },
@@ -1115,7 +1087,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": null,\n    \"invoiceDueAt\": null,\n    \"amount\": 0,\n    \"invoiceItems\": []\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": null,\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": M BRICOLAGE TANGER,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": 2024-01-02,\n    \"invoiceDueAt\": null,\n    \"amount\": 2076.0,\n    \"invoiceItems\": []\n}"
             }
         ]
     },
@@ -1129,7 +1101,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C BIS COM\",\n        \"ICE\": \"00158158300054\",\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-29\",\n    \"invoiceDueAt\": null,\n    \"amount\": 222.5,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 185.42,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 154.52,\n            \"amount\": 185.42,\n            \"name\": \"Composition de chocolat\"\n        }\n    ]\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C BIS COM\",\n        \"ICE\": \"00158158300054\",\n        \"email\": null,\n        \"invoiceAddress\": \"2 RUE ABOU ASSALT ANDALOUSSI ANGLE BVD ROUDANI, CASABLANCA\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-29\",\n    \"invoiceDueAt\": null,\n    \"amount\": 222.5,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 185.42,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 185.42,\n            \"amount\": 185.42,\n            \"name\": \"Composition de chocolat\"\n        }\n    ]\n}"
             }
         ]
     },
@@ -1143,7 +1115,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"status\": false,\n    \"message\": \" No valid content was generated\"\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C BIS COM\",\n        \"ICE\": \"00158158300054\",\n        \"email\": null,\n        \"invoiceAddress\": \"2RUE ABOU SALT AL ANDALOUSSI ANGLE BOULEVARD ROUDANI Maarif, 20330 Casablanca\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-03\",\n    \"invoiceDueAt\": null,\n    \"amount\": 5040.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 4200.0,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 4200,\n            \"amount\": 4200,\n            \"name\": \"Composition de chocolat\"\n        }\n    ]\n}"
             }
         ]
     },
@@ -1367,7 +1339,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"Orange\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-01-12\",\n    \"invoiceDueAt\": null,\n    \"amount\": 649.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 540.83,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 540.83,\n            \"amount\": 649.0,\n            \"name\": \"ORANGE DUO FIBRE PLUS ESE\"\n        }\n    ]\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C_BIS_COM\",\n        \"ICE\": null,\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2023-12-01\",\n    \"invoiceDueAt\": \"2023-12-31\",\n    \"amount\": 649.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 540.83,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 540.83,\n            \"amount\": 649.0,\n            \"name\": \"ORANGE DUO FIBRE PLUS ESE\"\n        }\n    ]\n}"
             }
         ]
     },
@@ -1381,7 +1353,7 @@
             },
             {
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C. BIS. COM SARLAU\",\n        \"ICE\": \"0015815830000654\",\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2021-12-24\",\n    \"invoiceDueAt\": null,\n    \"amount\": 4650.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 125.0,\n            \"quantity\": 31.0,\n            \"tva\": 20.0,\n            \"discount\": 775.0,\n            \"netAmount\": 3875.0,\n            \"amount\": 4650.0,\n            \"name\": \"BALLOTINS\"\n        }\n    ]\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C BIS. COM SARLAU\",\n        \"ICE\": \"0015815830000654\",\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-12\",\n    \"invoiceDueAt\": null,\n    \"amount\": 4650.0,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 125.0,\n            \"quantity\": 31.0,\n            \"tva\": 20.0,\n            \"discount\": 775.0,\n            \"netAmount\": 3875.0,\n            \"amount\": 4650.0,\n            \"name\": \"BALLOTINS\"\n        }\n    ]\n}"
             }
         ]
     },
@@ -1393,9 +1365,9 @@
                 "from": "human",
                 "value": "<image>\nExtract in json format information from the invoice image."
             },
-            {
+            { 
                 "from": "gpt",
-                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C. BIS. COM\",\n        \"ICE\": \"00158158300054\",\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-10\",\n    \"invoiceDueAt\": null,\n    \"amount\": 1200,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 260,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 216.67,\n            \"amount\": 260,\n            \"name\": \"Fourniture et pose\"\n        },\n        {\n            \"unitPrice\": 180,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 150,\n            \"amount\": 180,\n            \"name\": \"klot pvc160\"\n        },\n        {\n            \"unitPrice\": 102,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 85,\n            \"amount\": 102,\n            \"name\": \"bochon 160\"\n        },\n        {\n            \"unitPrice\": 72,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 60,\n            \"amount\": 72,\n            \"name\": \"bochon 125\"\n        },\n        {\n            \"unitPrice\": 66,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 55,\n            \"amount\": 66,\n            \"name\": \"riduction 125/75\"\n        },\n        {\n            \"unitPrice\": 100,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 83.33,\n            \"amount\": 100,\n            \"name\": \"mito 75\"\n        },\n        {\n            \"unitPrice\": 220,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 183.33,\n            \"amount\": 220,\n            \"name\": \"kola\"\n        }\n    ]\n}"
+                "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C. BIS. COM\",\n        \"ICE\": \"00158158300054\",\n        \"email\": null,\n        \"invoiceAddress\": null,\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-10\",\n    \"invoiceDueAt\": null,\n    \"amount\": 1200,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 260,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 260,\n            \"amount\": 260,\n            \"name\": \"Fourniture et pose\"\n        },\n        {\n            \"unitPrice\": 180,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 180,\n            \"amount\": 180,\n            \"name\": \"klot pvc160\"\n        },\n        {\n            \"unitPrice\": 102,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 102,\n            \"amount\": 102,\n            \"name\": \"bochon 160\"\n        },\n        {\n            \"unitPrice\": 72,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 72,\n            \"amount\": 72,\n            \"name\": \"bochon 125\"\n        },\n        {\n            \"unitPrice\": 66,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 66,\n            \"amount\": 66,\n            \"name\": \"riduction 125/75\"\n        },\n        {\n            \"unitPrice\": 100,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 100,\n            \"amount\": 100,\n            \"name\": \"mito 75\"\n        },\n        {\n            \"unitPrice\": 220,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 200,\n            \"amount\": 220,\n            \"name\": \"kola\"\n        }\n    ]\n}"
             }
         ]
     },

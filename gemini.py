@@ -119,3 +119,9 @@ if __name__ == "__main__":
     # Extracting json data from all invoices
     subset_name = "train"
     prepare_finetuning_dataset(subset_name)
+
+
+# "value": "{\n    \"invoiceClient\": {\n        \"name\": \"C BIS COM\",\n        \"ICE\": \"00158158300054\",\n        \"email\": null,\n        \"invoiceAddress\": \"2 RUE ABOU ASSALT ANDALOUSSI ANGLE BVD ROUDANI, CASABLANCA\",\n        \"shippingAddress\": null\n    },\n    \"invoiceAt\": \"2024-01-29\",\n    \"invoiceDueAt\": null,\n    \"amount\": 222.5,\n    \"invoiceItems\": [\n        {\n            \"unitPrice\": 185.42,\n            \"quantity\": 1,\n            \"tva\": 20,\n            \"discount\": 0,\n            \"netAmount\": 185.42,\n            \"amount\": 185.42,\n            \"name\": \"Composition de chocolat\"\n        }\n    ]\n}"
+
+# INVOICE (NOT VERIFIED YET) ORDER NUMBER : 9
+# arrived to N 22
