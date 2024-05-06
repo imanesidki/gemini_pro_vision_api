@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import json
 import os
 import uuid
+import time
 
 def extract_json_from_image(image_path) :
     try:
@@ -32,10 +33,8 @@ def extract_json_from_image(image_path) :
         result = response.text
     else:
         # Handle the case where no valid part is returned
-        print("No valid content was generated.")
-        print("Safety Ratings:", response.candidate.safety_ratings)
-        return(json.dumps({"status": False, "message": "Safety Ratings: "+response.candidate.safety_ratings}, indent=4))
-
+        return(json.dumps({"status": False, "message":" No valid content was generated"}, indent=4))
+    print(response)
     # trim the result to remove the leading and trailing whitespaces
     result = result.strip()
 
@@ -67,9 +66,11 @@ def prepare_finetuning_dataset(subset_name):
     # Initialize list to hold all JSON data
     all_json_data = []
     counter = 0
+    where_to_stop = 59
     for filename in os.listdir(image_subfolder):
-        if counter == 59:
-            break
+        if counter == where_to_stop:
+            where_to_stop += 60
+            time.sleep(60)
         if filename.endswith(".jpg") or filename.endswith(".jpeg") or filename.endswith(".png"):
             # Rename image
             image_path = os.path.join(image_subfolder, filename)
@@ -95,18 +96,26 @@ def prepare_finetuning_dataset(subset_name):
                     }
                 ]
             }
-
+            print(json_data)
+            print("====================================================")
             all_json_data.append(json_data)
 
+    # sort `all_json_data` by `id` key
+    all_json_data = sorted(all_json_data, key=lambda x: x["id"])
+
+ 
     # Save all_json_data to a JSON file to generate dataset for finetuning
     json_output_path = os.path.join(subset_folder, "dataset.json")
     with open(json_output_path, "w") as json_file:
         json.dump(all_json_data, json_file, indent=4)
 
-if __name__ == "__main__":-7=+4850
+if __name__ == "__main__":
     load_dotenv()
     # Configure gemini api key
     genai.configure(api_key = os.getenv("api_token"))
+    #test on one invoice
+    # image_path =  os.path.join(os.getcwd() ,"finetuning_dataset", "images", "dbee80ac-92bb-40c9-93ab-92d65187899e.jpg")
+    # print(extract_json_from_image(image_path))
     # Extracting json data from all invoices
     subset_name = "train"
     prepare_finetuning_dataset(subset_name)
